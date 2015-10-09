@@ -7,7 +7,7 @@ fstream Fichier::file;
 Fichier::Fichier()
 {
    try{
-      file.open("UnFichier.txt");
+      file.open("UnFichier.txt",ios_base::out);
    }
    catch (...)
    {
